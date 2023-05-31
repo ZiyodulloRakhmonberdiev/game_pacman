@@ -55,6 +55,11 @@ body{
     border-radius: 10px;
 }
 
+@media screen and (min-width: 500px){
+    #canvas{
+        width: 500px !important;
+    }
+}
 @media screen and (min-width: 992px){
     .controls{
         display: none;
